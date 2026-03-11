@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ServidorCSharp\\ServidorCS.csproj": {}
+    "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ClienteCSharp\\ClienteCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ServidorCSharp\\ServidorCS.csproj": {
+    "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ClienteCSharp\\ClienteCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ServidorCSharp\\ServidorCS.csproj",
-        "projectName": "ServidorCS",
-        "projectPath": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ServidorCSharp\\ServidorCS.csproj",
+        "projectUniqueName": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ClienteCSharp\\ClienteCSharp.csproj",
+        "projectName": "ClienteCSharp",
+        "projectPath": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ClienteCSharp\\ClienteCSharp.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ServidorCSharp\\obj\\",
+        "outputPath": "C:\\Uni\\2026 - 1\\Redes de datos 2\\SocketBuilds\\ClienteCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
