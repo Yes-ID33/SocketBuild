@@ -1,0 +1,73 @@
+# ==========================================
+# REGLAS DE SEGURIDAD (¡NO TOCAR ESTOS!)
+# ==========================================
+# Nos aseguramos de que NUNCA se ignore el código fuente,
+# sin importar las reglas de carpetas de abajo.
+!*.py
+!*.java
+!*.cs
+!*.rs
+!Cargo.toml
+!*.csproj
+!*.sln
+
+# Específicamente protegemos la carpeta bin de RUST
+!**/src/bin/**
+
+# ==========================================
+# HERRAMIENTAS Y EDITORES
+# ==========================================
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ==========================================
+# PYTHON
+# ==========================================
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+**/env/
+**/venv/
+
+# ==========================================
+# JAVA
+# ==========================================
+# Solo ignoramos los archivos compilados .class
+**/socket_java/*.class
+*.log
+*.jar
+
+# ==========================================
+# C# (Específico para tus carpetas)
+# ==========================================
+**/ServidorCSharp/bin/
+**/ServidorCSharp/obj/
+**/ClienteCSharp/bin/
+**/ClienteCSharp/obj/
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.pdb
+
+# ==========================================
+# RUST
+# ==========================================
+# Rust es muy limpio, todo lo que no queremos va a target/
+**/target/
+# El archivo lock se puede ignorar en proyectos finales (binary crates)
+# Cargo.lock 
+
+# ==========================================
+# ARCHIVOS DE SALIDA DEL LABORATORIO
+# ==========================================
+# Ignoramos los ejecutables finales generados en la raíz
+*.exe
+*.dll
+*.pdb
+# Si quieres que tus logs de benchmark NO se suban a GitHub:
+*.txt

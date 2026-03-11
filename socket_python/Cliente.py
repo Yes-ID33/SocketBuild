@@ -3,7 +3,7 @@ import socket
 # 1. Configuración de red
 # Debe coincidir exactamente con la IP y el puerto donde el servidor está escuchando
 HOST = '127.0.0.1'  # La IP del servidor (localhost)
-PORT = 7084        # El puerto del servidor
+PORT = 7085        # El puerto del servidor
 
 # 2. Creación del socket del cliente
 # Usamos la misma configuración: IPv4 (AF_INET) y TCP (SOCK_STREAM)
