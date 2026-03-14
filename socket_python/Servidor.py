@@ -6,7 +6,7 @@ PORT = 7085
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
     server_socket.bind((HOST, PORT))
     server_socket.listen()
-    print(f"Servidor Python escuchando en {HOST}:{PORT}...")
+    print(f"Servidor serpiente escuchando en {HOST}:{PORT}...")
 
     conn, addr = server_socket.accept()
 

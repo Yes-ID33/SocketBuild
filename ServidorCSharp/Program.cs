@@ -21,7 +21,7 @@ class Program {
 
                 Console.WriteLine($"¡Conectado con el cliente: {client.Client.RemoteEndPoint}!");
 
-                string mensaje;
+                string? mensaje;
                 while ((mensaje = reader.ReadLine()) != null) {
                     Console.WriteLine($"Cliente dice: {mensaje}");
 

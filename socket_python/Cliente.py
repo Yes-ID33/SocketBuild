@@ -11,7 +11,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
     print(f"Intentando conectar al servidor en {HOST}:{PORT}...")
 
     client_socket.connect((HOST, PORT))
-    print("¡Conexión establecida!\n")
+    print("¡Conexión establecida con el server de serpiente!\n")
 
     while True:
         mensaje = input("Escribe tu mensaje: ")
